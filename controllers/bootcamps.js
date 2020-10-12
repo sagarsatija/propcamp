@@ -19,6 +19,6 @@ exports.updateBootcamp = (req,res,next) => {
 }
 //private
 exports.deleteBootcamp = (req,res,next) => {
-
+    res.status(200).send({success:true,data:` delete ${req.params.id}`})
 }
 
